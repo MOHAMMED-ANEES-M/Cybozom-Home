@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='mt-40 bg-[#153403] text-[#bfe8a6] m-auto  py-5'>
+    <div className='mt-20 sm:mt-40 bg-[#153403] text-[#bfe8a6] m-auto  py-5'>
       <div className='grid grid-cols-1 md:grid-cols-2 border-b pb-10 border-[#bfe8a6]  text-center'>
         <div className='mt-10 md:border-e border-[#bfe8a6]'>
           <p className='text-3xl font-bold transform space-y-[1.5]'>We are best in industry <br/> for your success story.</p>
