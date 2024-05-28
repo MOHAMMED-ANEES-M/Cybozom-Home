@@ -33,9 +33,9 @@ const Navbar = () => {
         <img src={logo} alt="Cybozom Logo" className='w-auto h-16' />
         <div>
           <ul className='flex gap-7 lg:gap-10 items-center h-16'>
-            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">Home</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.3] transition duration-300">Home</li>
             <li 
-              className='nav-item relative h-16 flex gap-1 items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100' 
+              className='nav-item relative h-16 flex gap-1 items-center hover:text-[#153403] transform hover:scale-y-[1.3] transition duration-300' 
               onMouseEnter={toggleDropdown} 
               onMouseLeave={toggleDropdown}
             >
@@ -48,9 +48,9 @@ const Navbar = () => {
                 </ul>
               )}
             </li>
-            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">Portfolio</li>
-            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">About</li>
-            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">Contact</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.3] transition duration-300">Portfolio</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.3] transition duration-300">About</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.3] transition duration-300">Contact</li>
           </ul>
         </div>
       </div>
