@@ -16,10 +16,10 @@ const Main = () => {
       <h1 className='text-xl min-[350px]:text-2xl min-[450px]:text-3xl sm:text-4xl md:text-5xl lg:text-7xl  sm:tracking-wide text-[#153403] font-bold transform scale-y-[2] text-center'>
         UNLOCK YOUR WORLD WITH US
       </h1>
-      <div className='mx-[2%] m-auto mt-12 min-[450px]:mt-16 md:mt-20'>
+      <div className='mx-[5%] m-auto mt-12 min-[450px]:mt-16 md:mt-20'>
       <Carousal images={images}/>
       </div>
-      <div className='mt-16 sm:mt-32 grid grid-cols-1 md:grid-cols-2 gap-10 mx-[2%] items-center'>
+      <div className='mt-16 sm:mt-32 grid grid-cols-1 md:grid-cols-2 gap-10 mx-[5%] items-center'>
         <div>
           <h1 className='text-3xl sm:text-4xl md:text-5xl tracking-widest font-semibold text-[#153403]'>GET IN TOUCH</h1>
           <p className='mt-5 sm:mt-10'>4th Floor, CD TOWER, Mini Bypass Rd, Arayidathupalam, Kozhikode, Kerala 673004</p>
