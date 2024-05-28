@@ -8,7 +8,7 @@
   }
 
   body {
-    background-color: #def5cf;
+    background: linear-gradient(to bottom, #b7e29b 0%, #ffffff 50%);
     background-repeat: no-repeat;
   }
 

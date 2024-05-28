@@ -19,7 +19,7 @@ const Menu = () => {
   };
 
   return (
-    <div className='h-full w-full md:hidden bg-[#def5cf] flex items-center justify-center'>
+    <div className='h-full w-full md:hidden bg-[#b7e29b] flex items-center justify-center'>
       <div>
         <ul className='m-auto w-fit h-fit text-2xl leading-[50px]'>
           <li className='hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100'>Home</li>
@@ -30,7 +30,7 @@ const Menu = () => {
             Services <RiArrowDownWideFill />
           </li>
           {isDropdownOpen && (
-            <ul className={`menu-container absolute bg-[#def5cf] w-full z-50 ${isDropdownClose ? 'slide-up' : 'slide-down'}`}>
+            <ul className={`menu-container absolute bg-[#b7e29b] w-full z-50 ${isDropdownClose ? 'slide-up' : 'slide-down'}`}>
                 <li>Hospital</li>
                 <li>Hotel</li>
                 <li>Gym</li>
