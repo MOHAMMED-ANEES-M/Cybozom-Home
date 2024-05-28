@@ -22,23 +22,23 @@ const Menu = () => {
     <div className='h-full w-full md:hidden bg-[#cdeeb9] flex items-center justify-center'>
       <div>
         <ul className='m-auto w-fit h-fit text-2xl leading-[50px]'>
-          <li>Home</li>
+          <li className='hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100'>Home</li>
           <li 
-            className='relative flex gap-1 items-center cursor-pointer' 
+            className='relative flex gap-1 items-center cursor-pointer hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100' 
             onClick={toggleDropdown}
           >
             Services <RiArrowDownWideFill />
           </li>
           {isDropdownOpen && (
-            <ul className={`menu-container absolute bg-[#cdeeb9] w-full ${isDropdownClose ? 'slide-up' : 'slide-down'}`}>
+            <ul className={`menu-container absolute bg-[#cdeeb9] w-full z-50 ${isDropdownClose ? 'slide-up' : 'slide-down'}`}>
                 <li>Hospital</li>
                 <li>Hotel</li>
                 <li>Gym</li>
             </ul>
           )}
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li className='hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100'>Portfolio</li>
+          <li className='hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100'>About</li>
+          <li className='hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100'>Contact</li>
         </ul>
       </div>
     </div>

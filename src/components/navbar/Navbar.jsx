@@ -21,7 +21,7 @@ const Navbar = () => {
       setTimeout(() => {
         setIsMenuOpen(false);
         setIsMenuClosing(false);
-      }, 500);
+      }, 300);
     } else {
       setIsMenuOpen(true);
     }
@@ -33,9 +33,9 @@ const Navbar = () => {
         <img src={logo} alt="Cybozom Logo" className='w-auto h-16' />
         <div>
           <ul className='flex gap-7 lg:gap-10 items-center h-16'>
-            <li>Home</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">Home</li>
             <li 
-              className='relative h-16 flex gap-1 items-center' 
+              className='nav-item relative h-16 flex gap-1 items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100' 
               onMouseEnter={toggleDropdown} 
               onMouseLeave={toggleDropdown}
             >
@@ -48,9 +48,9 @@ const Navbar = () => {
                 </ul>
               )}
             </li>
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">Portfolio</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">About</li>
+            <li className="nav-item h-16 flex items-center hover:text-[#153403] transform hover:scale-y-[1.1] transition duration-100">Contact</li>
           </ul>
         </div>
       </div>
