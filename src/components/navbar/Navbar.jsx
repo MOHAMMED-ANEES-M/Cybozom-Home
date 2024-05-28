@@ -62,9 +62,9 @@ const Navbar = () => {
         )}
       </div>
       {(isMenuOpen || isMenuClosing) && 
-      <div className={`menu-container fixed inset-0 z-40 ${isMenuClosing ? 'slide-up' : 'slide-down'}`}>
-        <Menu />
-      </div>
+        <div className={`menu-container fixed inset-0 z-40 ${isMenuClosing ? 'slide-up' : 'slide-down'}`}>
+          <Menu />
+        </div>
       }
     </>
   );

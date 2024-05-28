@@ -6,10 +6,6 @@ const Menu = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isDropdownClose, setIsDropdownClose] = useState(false);
 
-//   const toggleDropdown = () => {
-//     setIsDropdownOpen(!isDropdownOpen);
-//   };
-
   const toggleDropdown = () => {
     if (isDropdownOpen) {
       setIsDropdownClose(true);
