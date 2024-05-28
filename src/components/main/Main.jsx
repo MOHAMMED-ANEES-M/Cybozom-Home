@@ -26,7 +26,7 @@ const Main = () => {
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.0013680810134!2d75.79039777398808!3d11.261309050064966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b3fd86b08c9%3A0xe2c7f5edfff5f359!2sCybozom%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1716885484139!5m2!1sen!2sin"  
             style={{ border: "0", borderRadius: "10px" }}
-            className='w-full rounded-xl h-80 '
+            className='w-full rounded-xl h-40 min[425px]:h-60 md:h-80 '
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
