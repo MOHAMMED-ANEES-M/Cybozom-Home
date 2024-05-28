@@ -54,7 +54,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className='fixed md:hidden right-5 top-5 navbar p-1 pb-0 z-50'>
+      <div className='fixed md:hidden flex justify-between items-center w-[90%] left-[5%] top-5 navbar p-1 px-2 z-50'>
+        <img src={logo} alt="Cybozom Logo" className='w-auto h-10' />
         { isMenuOpen ? (
           <button onClick={toggleButton} className="fade-animation"><TfiClose className='w-7 h-7 '/></button>
         ) : (

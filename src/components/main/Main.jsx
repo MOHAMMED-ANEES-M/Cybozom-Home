@@ -12,7 +12,7 @@ const Main = () => {
   ];
 
   return (
-    <div className=' mt-24 min-[450px]mt-28 md:mt-40'>
+    <div className=' mt-28 md:mt-40'>
       <h1 className='text-xl min-[350px]:text-2xl min-[450px]:text-3xl sm:text-4xl md:text-5xl lg:text-7xl  sm:tracking-wide text-[#153403] font-bold transform scale-y-[2] text-center'>
         UNLOCK YOUR WORLD WITH US
       </h1>
