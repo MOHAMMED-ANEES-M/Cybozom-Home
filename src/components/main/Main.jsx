@@ -37,11 +37,13 @@ const Main = () => {
       </div>
           <h2 className=' mt-16 sm:mt-32 text-2xl sm:text-3xl md:text-4xl font-semibold text-[#153403] text-center mb-8'>Explore in VR</h2>
       <div className='mx-10 grid grid-cols-2 gap-10'>
-        <div className=' mt-16 sm:mt-32 cursor-pointer'>
+        <div className=' mt-16 sm:mt-32 cursor-grab'>
           <VRScene />
+          <p className='text-center'>Drag the image</p>
         </div>
-        <div className=' mt-16 sm:mt-32 cursor-pointer'>
+        <div className=' mt-16 sm:mt-32 cursor-grab'>
           <VRScene1 />
+          <p className='text-center'>Drag the image</p>
         </div>
       </div>
     </div>
